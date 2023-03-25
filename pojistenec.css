@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #273181;
+  padding: 20px 10px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+  margin-left: 100px;
+}
+
+.side {
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.table {
+  border-collapse: collapse;
+  color:blue;
+  width: 100%;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+th, td {
+  border: 2px solid black;
+  padding: 1rem;
+}
+
+.container {
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+.form {
+  display: flex;
+}
+
+.form form {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+}
+
+.avatar {
+  width: 150px;
+  height: 100%;
+  border: 2px solid rgb(68, 0, 255);
+  border-radius: 0.25rem;
+  margin-right: 3rem;
+}
+
+.block {
+  flex-basis: 40%;
+}
+
+.block label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.block input {
+  padding: 0.75rem;
+  border-radius: 0.25rem ;
+  border: 1px solid gray;
+  width: 100%;
+}
+
+.submit {
+  background-color: rgb(75, 75, 217);
+  color: white;
+  border-radius: 0.25rem;
+  padding: 0.75rem 2rem;
+  border: none;
+  
+}
+
+.footer {
+  text-align: center;
+  /* margin: 1rem; též může být, ale dole nás nic nezajímá */
+  margin-top: 2rem;
+}
+

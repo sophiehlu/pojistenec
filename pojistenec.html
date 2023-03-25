@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pojistenec.css" type="text/css" />
+    <script src="pojistenec.js"></script>
+    <title>Pojištěnec</title>
+  </head>
+  <body>
+    <header>
+      <div>PojištěníApp</div>
+      <div class="nav">
+        <div>Pojištěnci</div>
+        <div>Pojištění</div>
+        <div>Události</div>
+        <div>O aplikaci...</div>
+      </div>
+      <div class="side">
+        <div>Přihlásit</div>
+        <div>Registrovat</div>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Pojištěnci</h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Jméno a příjmení</th>
+            <th>Telefon</th>
+            <th>Věk</th>
+          </tr>
+        </thead>
+        <tbody id="pojistenci"></tbody>
+      </table>
+      <h2>Nový pojištěnec</h2>
+      <div class="form">
+        <img
+          class="avatar"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amateur-made_Na%27vi.jpg/1200px-Amateur-made_Na%27vi.jpg"
+          alt="avatar"
+        />
+        <form id="pojistenec">
+          <div class="block">
+            <label>Jméno</label>
+            <input name="jmeno" type="text" placeholder="Jan" />
+          </div>
+          <div class="block">
+            <label>Příjmení</label>
+            <input name="prijmeni" type="text" placeholder="Novák" />
+          </div>
+          <div class="block">
+            <label>Věk</label>
+            <input name="vek" type="text" placeholder="25" />
+          </div>
+          <div class="block">
+            <label>Telefon</label>
+            <input name="telefon" type="text" placeholder="987654321" />
+          </div>
+        </form>
+      </div>
+      <div class="footer">
+        <button class="submit" type="submit" onClick="handleClick()">
+          Uložit
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
